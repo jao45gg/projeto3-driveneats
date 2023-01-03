@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+header div {
+    margin-left: 20px;
+}
