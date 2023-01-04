@@ -39,7 +39,7 @@ header div {
 }
 
 footer {
-    background-color: red;
+    background-color: #FFFFFF;
     height: 100px;
     width: 100%;
     position: fixed;
@@ -76,14 +76,16 @@ nav {
 
 nav section {
     margin-bottom: 27px;
+    overflow-x: scroll;
 }
 
-nav section h1 {
+nav h1 {
     font-family: 'Righteous', cursive;
     font-size: 26px;
     color: #333333; 
     margin-bottom: 17px;
     margin-left: 19px;
+    
 }
 
 nav section main {
@@ -91,7 +93,6 @@ nav section main {
     justify-content: space-around;
     align-items: center;   
     width: 600px;
-    overflow-x: scroll;
 }
 
 nav section main div {
