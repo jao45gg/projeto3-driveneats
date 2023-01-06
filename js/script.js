@@ -81,12 +81,15 @@ function zap() {
     text3 = text3.slice(25, text3.length - 21);
 
     let num1 = comida1.querySelector("p").textContent;
+    num1 = num1.replace(",", ".");
     num1 = parseFloat(num1.slice(28, num1.length));
 
     let num2 = comida2.querySelector("p").textContent;
+    num2 = num2.replace(",", ".");
     num2 = parseFloat(num2.slice(28, num2.length));
 
     let num3 = comida3.querySelector("p").textContent;
+    num3 = num3.replace(",", ".");
     num3 = parseFloat(num3.slice(28, num3.length));
 
     str +=
