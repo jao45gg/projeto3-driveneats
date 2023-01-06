@@ -17,7 +17,7 @@ function selecPrato(prato) {
     if (contador === 3) {
         document.querySelector("button").disabled = false;
         document.querySelector(".h11").classList.add("finalizado");
-        document.querySelector(".h11").innerHTML = "Fechar Pedido";
+        document.querySelector(".h11").innerHTML = "Fechar pedido";
         document.querySelector(".h12").classList.add("none");
     }
     comida1 = prato;
@@ -39,7 +39,7 @@ function selecBebida(bebida) {
     if (contador === 3) {
         document.querySelector("button").disabled = false;
         document.querySelector(".h11").classList.add("finalizado");
-        document.querySelector(".h11").innerHTML = "Finalizar Pedido";
+        document.querySelector(".h11").innerHTML = "Fechar pedido";
         document.querySelector(".h12").classList.add("none");
     }
     comida2 = bebida;
@@ -61,7 +61,7 @@ function selecSobremesa(sobremesa) {
     if (contador === 3) {
         document.querySelector("button").disabled = false;
         document.querySelector(".h11").classList.add("finalizado");
-        document.querySelector(".h11").innerHTML = "Finalizar Pedido";
+        document.querySelector(".h11").innerHTML = "Fechar pedido";
         document.querySelector(".h12").classList.add("none");
     }
     comida3 = sobremesa;
