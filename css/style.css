@@ -99,9 +99,8 @@ nav h1 {
 
 nav section main {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 600px;
+    width: 100%;
 }
 
 nav section main div {
@@ -117,6 +116,7 @@ nav section main div {
     box-sizing: border-box;
     padding: 14px;
     position: relative;
+    margin-left: 19px;
 }
 
 nav section main div h3 {
@@ -141,8 +141,8 @@ ion-icon {
     color: #32B72F;
     font-size: 19px;
     position: absolute;
-    right: 2vw;
-    bottom: 1.7vh;
+    right: 11px;
+    bottom: 14px;
 }
 
 .none {
