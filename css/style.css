@@ -51,7 +51,14 @@ footer {
     align-items: center;
 }
 
-footer button {
+a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer a button {
     border-radius: 50px;
     background-color: #CBCBCB;
     width: 80%;
@@ -154,8 +161,8 @@ ion-icon {
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
 }
 
-footer button:enabled {
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+footer a button:enabled {
+    background-color: #32B72F;
 }
 
 .finalizado {
