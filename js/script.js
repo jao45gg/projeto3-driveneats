@@ -18,7 +18,6 @@ function selecPrato(prato) {
         document.querySelector("button").disabled = false;
         document.querySelector(".h11").classList.add("finalizado");
         document.querySelector(".h11").innerHTML = "Fechar pedido";
-        document.querySelector(".h12").classList.innerHTML("");
     }
     comida1 = prato;
 };
@@ -40,7 +39,6 @@ function selecBebida(bebida) {
         document.querySelector("button").disabled = false;
         document.querySelector(".h11").classList.add("finalizado");
         document.querySelector(".h11").innerHTML = "Fechar pedido";
-        document.querySelector(".h12").classList.innerHTML("");
     }
     comida2 = bebida;
 };
@@ -62,7 +60,6 @@ function selecSobremesa(sobremesa) {
         document.querySelector("button").disabled = false;
         document.querySelector(".h11").classList.add("finalizado");
         document.querySelector(".h11").innerHTML = "Fechar pedido";
-        document.querySelector(".h12").classList.innerHTML("");
     }
     comida3 = sobremesa;
 };
