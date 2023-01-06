@@ -35,41 +35,44 @@
         </h1>
         <section>
             <main>
-                <div>
+                <div onclick="selecPrato(this)">
                     <img src="./img/Receita-de-Feijao-tropeiro-e-sua-tradicao.webp">
                     <h2>
                         Tropeiro 1 ovo
                     </h2>
                     <h3>
-                        Clássico tropeiro com muito torresmo
+                        Clássico tropeiro
                     </h3>
-                    <h2>
+                    <p>
                         R$ 8,90
-                    </h2>
+                    </p>
+                    <ion-icon name="checkmark-circle-sharp" class="none"></ion-icon>
                 </div>
-                <div>
+                <div onclick="selecPrato(this)">
                     <img src="./img/japa.jpeg">
                     <h2>
                         Combo de peças
                     </h2>
                     <h3>
-                        4 sushis, 4 uramaki, 3 sashimis e 4 rot roll
+                        muito sushi
                     </h3>
-                    <h2>
+                    <p>
                         R$ 34,90
-                    </h2>
+                    </p>
+                    <ion-icon name="checkmark-circle-sharp" class="none"></ion-icon>
                 </div>
-                <div>
+                <div onclick="selecPrato(this)">
                     <img src="./img/Receita-de-Feijao-tropeiro-e-sua-tradicao.webp">
                     <h2>
                         Tropeiro 3 ovos
                     </h2>
                     <h3>
-                        Clássico tropeiro com muito torresmo
+                        Clássico
                     </h3>
-                    <h2>
+                    <p>
                         R$ 11,90
-                    </h2>
+                    </p>
+                    <ion-icon name="checkmark-circle-sharp" class="none"></ion-icon>
                 </div>
             </main>
         </section>
@@ -78,7 +81,7 @@
         </h1>
         <section>
             <main>
-                <div>
+                <div onclick="selecBebida(this)">
                     <img src="./img/104907601_1GG.jpg">
                     <h2>
                         1 guaraná gelado
@@ -86,11 +89,12 @@
                     <h3>
                         Lata 350ml
                     </h3>
-                    <h2>
+                    <p>
                         R$ 2,90
-                    </h2>
+                    </p>
+                    <ion-icon name="checkmark-circle-sharp" class="none"></ion-icon>
                 </div>
-                <div>
+                <div onclick="selecBebida(this)">
                     <img src="./img/coca.jpeg">
                     <h2>
                         Coquinha Ks geladinha
@@ -98,11 +102,12 @@
                     <h3>
                         Ks 290ml
                     </h3>
-                    <h2>
+                    <p>
                         R$ 4,50
-                    </h2>
+                    </p>
+                    <ion-icon name="checkmark-circle-sharp" class="none"></ion-icon>
                 </div>
-                <div>
+                <div onclick="selecBebida(this)">
                     <img src="./img/104907601_1GG.jpg">
                     <h2>
                         3 guaranás gelados
@@ -110,9 +115,10 @@
                     <h3>
                         Lata 350ml
                     </h3>
-                    <h2>
+                    <p>
                         R$ 5,90
-                    </h2>
+                    </p>
+                    <ion-icon name="checkmark-circle-sharp" class="none"></ion-icon>
                 </div>
             </main>
         </section>
@@ -121,7 +127,7 @@
         </h1>
         <section>
             <main>
-                <div>
+                <div onclick="selecSobremesa(this)">
                     <img src="./img/doce-de-leite-macio-1.jpg">
                     <h2>
                         1 doce de leite
@@ -129,23 +135,25 @@
                     <h3>
                         A vovó que fez
                     </h3>
-                    <h2>
+                    <p>
                         R$ 0,90
-                    </h2>
+                    </p>
+                    <ion-icon name="checkmark-circle-sharp" class="none"></ion-icon>
                 </div>
-                <div>
+                <div onclick="selecSobremesa(this)">
                     <img src="./img/brownie.jpeg">
                     <h2>
                         Brownie recheado
                     </h2>
                     <h3>
-                        Morango, oreo e chocolate ao leite
+                        vale a pena
                     </h3>
-                    <h2>
+                    <p>
                         R$ 11,90
-                    </h2>
+                    </p>
+                    <ion-icon name="checkmark-circle-sharp" class="none"></ion-icon>
                 </div>
-                <div>
+                <div onclick="selecSobremesa(this)">
                     <img src="./img/doce-de-leite-macio-1.jpg">
                     <h2>
                         3 doces de leite
@@ -153,23 +161,26 @@
                     <h3>
                         A vovó que fez
                     </h3>
-                    <h2>
+                    <p>
                         R$ 3,00
-                    </h2>
+                    </p>
+                    <ion-icon name="checkmark-circle-sharp" class="none"></ion-icon>
                 </div>
             </main>
         </section>
     </nav>
     <footer>
-        <div>
-            <h1>
+        <button disabled>
+            <h1 class="h11">
                 Selecione os 3 itens
             </h1>
-            <h1>
+            <h1 class="h12">
                 para fechar o pedido
             </h1>
-        </div>
+        </button>
     </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

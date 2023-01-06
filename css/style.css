@@ -20,6 +20,7 @@ header {
     top: 0;
     left: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
 header h1 {
@@ -50,7 +51,7 @@ footer {
     align-items: center;
 }
 
-footer div {
+footer button {
     border-radius: 50px;
     background-color: #CBCBCB;
     width: 80%;
@@ -59,6 +60,7 @@ footer div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 0;
 }
 
 footer h1 {
@@ -82,16 +84,16 @@ nav section {
 nav h1 {
     font-family: 'Righteous', cursive;
     font-size: 26px;
-    color: #333333; 
+    color: #333333;
     margin-bottom: 17px;
     margin-left: 19px;
-    
+
 }
 
 nav section main {
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
     width: 600px;
 }
 
@@ -103,16 +105,11 @@ nav section main div {
     height: 216px;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: flex-start;
     box-sizing: border-box;
     padding: 14px;
-}
-
-nav section main div h2:nth-child(1) {
-    font-weight: 400;
-    font-size: 16px;
-    color: #333333;
+    position: relative;
 }
 
 nav section main div h3 {
@@ -125,4 +122,42 @@ nav section main div h2:nth-child(2) {
     font-weight: 700;
     font-size: 16px;
     color: #333333;
+}
+
+nav section main div p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+ion-icon {
+    color: #32B72F;
+    font-size: 19px;
+    position: absolute;
+    right: 2vw;
+    bottom: 1.7vh;
+}
+
+.none {
+    display: none;
+}
+
+.pratoSelecionado {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.sobremesaSelecionada {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.bebidaSelecionada {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+footer button:enabled {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.finalizado {
+    font-weight: 700;
 }
